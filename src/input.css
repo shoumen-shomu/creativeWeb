@@ -17,6 +17,7 @@
   --shadow-newShadow: 0 4px 60px 0 rgba(72, 103, 255, 0.8);
 }
 
+
 @utility text-brand {
   background-image: var(--background-image-gradientNew);
   -webkit-background-clip: text;
