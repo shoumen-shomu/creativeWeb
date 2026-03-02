@@ -408,6 +408,9 @@
   .w-full\! {
     width: 100% !important;
   }
+  .max-w-2xl {
+    max-width: var(--container-2xl);
+  }
   .max-w-60 {
     max-width: calc(var(--spacing) * 60);
   }
@@ -1586,6 +1589,11 @@
       width: 809px;
     }
   }
+  .lg\:w-\[810px\] {
+    @media (width >= 64rem) {
+      width: 810px;
+    }
+  }
   .lg\:w-\[872px\] {
     @media (width >= 64rem) {
       width: 872px;
@@ -1843,6 +1851,11 @@
   .xl\:w-\[809px\] {
     @media (width >= 80rem) {
       width: 809px;
+    }
+  }
+  .xl\:w-xl {
+    @media (width >= 80rem) {
+      width: var(--container-xl);
     }
   }
   .xl\:gap-20 {
